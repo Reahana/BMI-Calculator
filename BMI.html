@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+<body>
+    <div class="template">
+        <h1>Body Mass Index Calculator</h1>
+        <table>
+            <tr>
+                <td>Your Weight: </td>
+                <td><input type="text" size="10" id="w-kg"> kg</td>
+                <td style="text-align: center; font-weight: bold;">OR</td>
+                <td><input type="text" size="10" id="w-lb">  lb</td>
+            </tr>
+            <tr>
+                <td>Your Height: </td>
+                <td><input type="text" size="10" id="h-cm"> cm </td>
+                <td style="text-align: center; font-weight: bold;">OR</td>
+                <td><input type="text" size="5" id="h-ft">  ft <input type="text" size="5" id="h-in"> inch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="text-align: right;"><input type="button" id="button" value="Calculate BMI" onClick="calculateBmi()"></td>
+            </tr>
+            <tr>
+                <td> Your BMI:</td>
+                <td><input type="text" id="bmi" size="15"><br /></td>
+            </tr>
+            <tr>
+                <td>This Means:</td>
+                <td><p id="demo"></p>
+                </td>
+            </tr>
+    
+        </table>
+    </div>
+
+
+
+
+
+
+
+    <script src="BMI.js"></script>
+</body>
+</html>
+
