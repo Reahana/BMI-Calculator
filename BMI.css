@@ -1,0 +1,27 @@
+*{
+    margin: 0; padding: 0;outline: 0;
+}
+.template {
+    margin: 20px auto;
+    width: 550px;
+   /* background-image: url("bg.jpg") ; */
+   background-color: #f1f1f1;
+    padding: 15px 10px 10px 30px;
+    color:crimson;
+    font-weight: bold;
+    border: 2px solid crimson;
+}
+td{
+    padding: 10px;
+}
+#button{
+    color: crimson;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* #demo3{
+    color: orangered;
+} */
